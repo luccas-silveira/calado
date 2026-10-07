@@ -19,5 +19,6 @@ test('a montagem do prompt devolve as seções do motor intactas e na ordem', as
 
   const { sections } = await $.prompt.compose(ENTRADA)
 
-  expect(sections).toEqual([INTRO, MEMORY])
+  // A reserva da etapa 2 entra depois, quando falta `communication`.
+  expect(sections.slice(0, 2)).toEqual([INTRO, MEMORY])
 })
