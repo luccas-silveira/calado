@@ -1,0 +1,1 @@
+{ "name": "calado", "version": "0.1.0", "description": "Troca a instrução de narrar entre ferramentas por uma regra contra narração", "types": "./types/index.d.ts" }

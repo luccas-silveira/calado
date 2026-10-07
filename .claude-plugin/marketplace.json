@@ -1,0 +1,1 @@
+{ "name": "calado", "owner": { "name": "luccas-silveira" }, "plugins": [{ "name": "calado", "source": "./" }] }
