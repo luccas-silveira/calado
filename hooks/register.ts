@@ -1,1 +1,5 @@
-export {}
+import type { Register } from 'claude-code'
+
+export const register: Register = on => {
+  on('prompt.compose', ($, e, next) => next(e))
+}
